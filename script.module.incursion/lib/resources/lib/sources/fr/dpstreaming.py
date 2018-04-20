@@ -26,8 +26,8 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['fr']
-        self.domains = ['dpstreaming.me']
-        self.base_link = 'http://dpstreaming.me'
+        self.domains = ['dpstreaming.cc']
+        self.base_link = 'http://dpstreaming.cc'
         self.key_link = '?'
         self.search_link = 's=%s'
 
@@ -99,7 +99,7 @@ class source:
             url = client.replaceHTMLCodes(url)
             url = url.encode('utf-8')
 
-            r = client.request('http://www.dpstreaming.me' + url)
+            r = client.request('http://www.dpstreaming.cc' + url)
 
             if season and episode:
                 if int(episode) < 10:
