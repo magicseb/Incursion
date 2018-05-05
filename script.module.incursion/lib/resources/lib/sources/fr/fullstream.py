@@ -31,8 +31,8 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['fr']
-        self.domains = ['full-stream.nu']
-        self.base_link = 'http://full-stream.nu'
+        self.domains = ['full-stream.io']
+        self.base_link = 'http://full-stream.io'
         self.search_link = 'index.php'
 
     def movie(self, imdb, title, localtitle, aliases, year):
